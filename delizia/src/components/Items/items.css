@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    height: 150px;
+    background-color: black;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+.Items-box {
+
+    background-color: black;
+    width: 180px;
+    height: 150px;
+    color: blue;
+    justify-content: center;
+}
+
+.Items-box:hover {
+    background: white;
+}
+

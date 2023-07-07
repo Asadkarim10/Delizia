@@ -1,21 +1,25 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Carousel from './components/carousel/carousel'
-import './App.css'
+//import './App.css'
+// import Footer from './components/footer/footer'
+// import Apps from './components/carousel/Slider'from '
+
+import Items from './components/Items/Items'
+
 
 function App() {
 
   return (
   
-      <div>
-      asad
-   
+      <div >
+   <Items />
        </div>
+
   
   )
 }
 
 export default App
+
+
 
 

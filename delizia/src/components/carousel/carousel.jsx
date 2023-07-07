@@ -1,63 +1,23 @@
-import { useState } from 'react'
-import './carousel.css'
+import React, { useState, useEffect } from 'react';
 
+const ImageSlider = ({ images, interval }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-const colors = ["#0088FE", "#00C49F", "#FFBB28"];
-const delay = 2500;
-
-function Carousel() {
-  const [index, setIndex] = React.useState(0);
-  const timeoutRef = React.useRef(null);
-
-  function resetTimeout() {
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
-    }
-  }
-
-  React.useEffect(() => {
-    resetTimeout();
-    timeoutRef.current = setTimeout(
-      () =>
-        setIndex((prevIndex) =>
-          prevIndex === colors.length - 1 ? 0 : prevIndex + 1
-        ),
-      delay
-    );
+  useEffect(() => {
+    const sliderInterval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, interval);
 
     return () => {
-      resetTimeout();
+      clearInterval(sliderInterval);
     };
-  }, [index]);
+  }, [images, interval]);
 
   return (
-    <div className="slideshow">
-      <div
-        className="slideshowSlider"
-        style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-      >
-        {colors.map((backgroundColor, index) => (
-          <div
-            className="slide"
-            key={index}
-            style={{ backgroundColor }}
-          ></div>
-        ))}
-      </div>
-
-      <div className="slideshowDots">
-        {colors.map((_, idx) => (
-          <div
-            key={idx}
-            className={`slideshowDot${index === idx ? " active" : ""}`}
-            onClick={() => {
-              setIndex(idx);
-            }}
-          ></div>
-        ))}
-      </div>
+    <div>
+      <img src={images[currentIndex]} alt="Slider" />
     </div>
   );
-}
+};
 
-export default Carousel;
+export default ImageSlider;
