@@ -20,13 +20,19 @@ export default function Items() {
             <div className='Items-box'>
                 <img src="./assets/react.svg" alt="asad" />
             </div>
-
-
-
-
-
-
         </div>
+
+
+
+        <div className='searchBox'>
+
+            <div>icon</div>
+
+        <input type="search" className='searchbar' placeholder='search on item bv title...' />
+        </div>
+
+        <div className='itempic' >
+        <img src="https://reactjs.org/logo-og.png" alt="React Image" />        </div>
 
 
         </div>

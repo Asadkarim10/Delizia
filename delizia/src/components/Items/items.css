@@ -20,3 +20,30 @@
     background: white;
 }
 
+
+.searchBox {
+    display: flex;
+    width: 94%;
+    background-color: azure;
+    border-style: hidden;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.searchbar {
+
+    display: flex;
+    align-self: center;
+    height: 40px;
+    width: 94%;
+    border-style: none;
+    align-items: center;
+
+}
+
+input:focus {
+    outline:none;
+}
