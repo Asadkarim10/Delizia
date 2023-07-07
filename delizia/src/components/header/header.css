@@ -1,0 +1,12 @@
+.Footer {
+    background-color: black;
+    height: 250px;
+    width: 100%;
+}
+
+.policy {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+}
