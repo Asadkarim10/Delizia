@@ -2,6 +2,8 @@ import React from 'react';
 import './footer.css'; 
 
 
+
+
 export default function Footer() {
     return (
         <div className='header' >
@@ -20,10 +22,11 @@ export default function Footer() {
             </div>
         </div>
         
-        {/* logo */}
+        
+
         
         <div>
-            <img src="./assets/react.svg" alt="Asad" />
+            <img src="./assets/cupcake.jpg" alt="Asad" />
         </div>
         <div className='lastbox'>
         <div className=''>Icon</div>
