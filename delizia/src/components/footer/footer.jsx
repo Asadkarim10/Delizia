@@ -1,37 +1,46 @@
 import React from 'react';
-import './footer.css'; 
-
-
+import './footer.css';
 
 
 export default function Footer() {
     return (
-        <div className='header' >
 
-        <div className='Dis'>
-                <div className='box1'>
-                <div>Icon</div>
-                <div className='add'>
-                <span>Change Location</span> <br />
-                <span>Abdullah Haroon Road</span>
-                </div> 
-                </div>
-            <div className='box1'>
-                    <div>ICon</div>
-                    <div>021 111 359 111</div>
+        <div className='Container'>
+
+            <div className='btncon'>
+                <button className='btn' >
+                    <span>Icon</span>
+                    <div>
+                        <span className='loc' >Change Location</span>
+                        <br />
+                        <span className='loc' >Garden</span>
+                    </div>
+                </button>
+                <button className='btn1'>
+                    <div>
+                        <span>Icon</span>
+                        <span className='num'>021 111 359 111</span>
+                    </div>
+                </button>
             </div>
-        </div>
-        
-        
 
-        
-        <div>
-            <img src="./assets/cupcake.jpg" alt="Asad" />
+            {/* logo */}
+
+                <div className='logo'>
+                <img src="/src/assets/LOGO.webp"  alt="" />
+                </div>
+
+
+
+            <div className='lastbox'>
+            <div className='box2'>logo</div>
+            <button className='box2'>logo</button>
+            </div>
+
         </div>
-        <div className='lastbox'>
-        <div className=''>Icon</div>
-        <div className='box2'>logo</div>
-        </div>
-        </div>
+
     )
 }
+
+
+
