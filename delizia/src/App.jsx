@@ -1,16 +1,14 @@
 import { useState } from 'react'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-//import './App.css'
- import Footer from './components/footer/footer'
-// import Apps from './components/carousel/Slider'
-// import Items from './components/Items/Items'
-// import Header from './components/header/header'
+import './App.css'
+import Sld from './Sld'
 
 
 
 function App() {
   return <div>
-    <Footer />
+     <Sld /> 
+    
   </div>
 }
 
@@ -26,7 +24,7 @@ function App() {
 //     )
 //   },
 //   {
-//     path: "/footer/:id",
+//     path: "/Footer/:id",
 //     element: <Footer />
 //   }
 // ])

@@ -1,15 +1,16 @@
 import React from 'react';
 import './footer.css';
-
+//import { FaBeer } from "react-icons/fa";
 
 export default function Footer() {
+    
+    
     return (
-
         <div className='Container'>
-
             <div className='btncon'>
                 <button className='btn' >
                     <span>Icon</span>
+                  
                     <div>
                         <span className='loc' >Change Location</span>
                         <br />
@@ -25,13 +26,9 @@ export default function Footer() {
             </div>
 
             {/* logo */}
-
                 <div className='logo'>
                 <img src="/src/assets/LOGO.webp"  alt="" />
                 </div>
-
-
-
             <div className='lastbox'>
             <div className='box2'>logo</div>
             <button className='box2'>logo</button>

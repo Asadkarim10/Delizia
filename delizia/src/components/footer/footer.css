@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    background-color: #fafafa;
 }
 
 .btncon {
@@ -51,10 +52,9 @@ img {
   width: 120px;
   height:120px;
   margin-top: -20;
-
-  
-
 }
+
+
 
 span {
   color: #d39d3a;
