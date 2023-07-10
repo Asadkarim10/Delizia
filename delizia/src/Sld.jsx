@@ -17,24 +17,32 @@ function Sld() {
     class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
     
     <div
-      class="relative float-left -mr-[100%] w-full transition-transform duration-[300ms] ease-in-out motion-reduce:transition-none"
+      class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item
       data-te-carousel-active>
       <img
-        src="src/assets/item.webp"
+        src="src/assets/item1.webp"
         class="block w-full"
         alt="Wild Landscape" />
     </div>
     
     <div
-      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[300ms] ease-in-out motion-reduce:transition-none"
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item>
+      <img
+        src="src/assets/item.webp"
+        class="block w-full"
+        alt="Camera" />
+    </div>
+   
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item>
       <img
         src="src/assets/item1.webp"
         class="block w-full"
-        alt="Camera" />
+        alt="Exotic Fruits" />
     </div>
-  
   </div>
 </div>
 }

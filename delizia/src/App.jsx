@@ -2,13 +2,15 @@ import { useState } from 'react'
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import './App.css'
 import Sld from './Sld'
-
+// import Header from './components/header/header'
+// import Footer from './components/footer/footer'
 
 
 function App() {
   return <div>
-     <Sld /> 
     
+{/* <Footer /> */}
+  <Sld />
   </div>
 }
 
