@@ -14,12 +14,35 @@
     height: 150px;
     color: blue;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
 }
 
 .Items-box:hover {
     background: white;
 }
 
+
+.Items {
+
+    color: #bc926e;
+    justify-content: center;
+    display: flex;
+    align-self: center;
+    align-content: center;
+
+}
+
+.itempic{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.itemimg {
+width: 90%;
+}
 
 .searchBox {
     display: flex;
@@ -38,6 +61,7 @@
     display: flex;
     align-self: center;
     height: 40px;
+    background-color: black;
     width: 94%;
     border-style: none;
     align-items: center;

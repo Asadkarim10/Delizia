@@ -7,18 +7,23 @@ export default function Items() {
         <div className='header' >
 
             <div className='Items-box'>
-                <img src="./assets/react.svg" alt="asad" />
+            <img src="./src/assets/cake.webp" className='items' alt="cake" />
             </div>
 
             <div className='Items-box'>
+            <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351912-donut.png&w=48&q=75" className='items' alt="donut" />
+            <br /> <br />
             </div>
-            
             <div className='Items-box'>
-            {/* <img alt="Donuts" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="img-fluid" srcset="/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351912-donut.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351912-donut.png&amp;w=96&amp;q=75 2x" src="/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351912-donut.png&amp;w=96&amp;q=75" style="color: transparent;" /> */}
+            <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351922-cupcake.png&w=48&q=75" className='items' alt="cupcake" />
             </div>
 
             <div className='Items-box'>
-                <img src="./assets/react.svg" alt="asad" />
+            <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351944-brownie.png&w=48&q=75" className='items' alt="brownie" />
+            </div>
+
+            <div className='Items-box'>
+            <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351951-dessert.png&w=48&q=75" className='items' alt="dessert" />
             </div>
         </div>
 
@@ -26,13 +31,14 @@ export default function Items() {
 
         <div className='searchBox'>
 
-            <div>icon</div>
 
         <input type="search" className='searchbar' placeholder='search on item bv title...' />
         </div>
 
         <div className='itempic' >
-        <img src="https://reactjs.org/logo-og.png" alt="React Image" />        </div>
+            
+        <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1673694209-cake-min.jpg&w=1920&q=75" className='itemimg' alt="brownie" />        
+        </div>
 
 
         </div>

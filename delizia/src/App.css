@@ -1,6 +1,11 @@
 #root {
-  
-  background-color: #fafafa;
+  background-color: yellow;
+}
+.Container1 {
+
+  height: 50%;
+  background-color: aqua;
+
 }
 
 /* .logo {

@@ -7,40 +7,36 @@ initTE({ Carousel });
 
 
 function Sld() {
-  return  <div
+  return <div
   id="carouselExampleSlidesOnly"
-  class="relative"
+   className="relative"
   data-te-carousel-init
   data-te-carousel-slide>
-
   <div
-    class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-    
+    className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
     <div
-      class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      className="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item
       data-te-carousel-active>
       <img
-        src="src/assets/item1.webp"
-        class="block w-full"
+        src="src/assets/item.webp"        
+        className="block w-full"
         alt="Wild Landscape" />
     </div>
-    
     <div
-      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item>
+      <img
+      src="src/assets/item1.webp"        
+      className="block w-full"
+        alt="Camera" />
+    </div>
+    <div
+      className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item>
       <img
         src="src/assets/item.webp"
-        class="block w-full"
-        alt="Camera" />
-    </div>
-   
-    <div
-      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-      data-te-carousel-item>
-      <img
-        src="src/assets/item1.webp"
-        class="block w-full"
+        className="block w-full"
         alt="Exotic Fruits" />
     </div>
   </div>
