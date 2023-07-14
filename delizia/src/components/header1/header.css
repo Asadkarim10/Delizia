@@ -1,4 +1,4 @@
-.Container {
+ /* .Container {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -7,17 +7,64 @@
 .btncon {
   display: flex;
   padding: 4px;
+}  */
+
+.location {
+  font-size: .6em;
+  color: #d39d3a;
 }
-button {
+ 
+
+.button1 {
   background-color: black;
-  flex-direction: row;
-  border-radius: 10px;
+  border-radius: 8px;
   height: 40px;
   width: 140px;
+  margin-left: 5px;
+  font-size: 12px;
+  padding-left: 10px;
+  color: #9e815a;
   justify-content: center;
-  align-items: center;
 }
-.loc {
+
+.button2 {
+  background-color: black;
+  border-radius: 8px;
+  height: 40px;
+  width: 120px;
+  margin-left: 5px;
+  font-size: 12px;
+  padding-left: 10px;
+  color: #9e815a;
+  justify-content: center;
+
+}
+
+
+.button3 {
+  background-color: black;
+  border-radius: 8px;
+  height: 40px;
+  width: 50px;
+  margin-left: 5px;
+  font-size: 12px;
+  padding-left: 10px;
+  color: #9e815a;
+  justify-content: center;
+
+}
+
+/* .headimg {
+
+  width: 80px;
+  height:80px;
+  margin-top: -40;
+}  */
+
+
+
+/* 
+ .loc {
   font-size: 9px;
   margin-left: 5px;
 }
@@ -32,7 +79,7 @@ button {
   margin-left: 5px;
 }
 
-.btn1 {
+ .btn1 {
 
   margin-left: 5px;
 
@@ -43,12 +90,12 @@ button {
   margin-left: -100px;
 }
 
-.headimg {
+ .headimg {
 
   width: 120px;
   height:120px;
   margin-top: -20;
-}
+} 
 
 
 
@@ -107,4 +154,4 @@ button {
 .lastbox {
     display: flex;
     justify-content: space-between;
-}
+}  */
