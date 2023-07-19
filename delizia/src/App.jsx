@@ -1,9 +1,10 @@
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 //import './App.css'
-import Header from './components/header1/header'
 import Footer from './components/footer1/footer'
-
+import Header from "./components/header1/header"
+import Items from "./components/Items/Items"
+import Home from "./home/home"
 
 
 const router = createBrowserRouter([

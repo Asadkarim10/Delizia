@@ -1,78 +1,73 @@
 import { right } from '@popperjs/core';
 import React from 'react';
 import './header.css';
-// import { FaBeer } from "react-icons/fa";
+//import { FaBeer } from "react-icons/fa";
 
-// export default function Header() {
+        
 
 
-//     return (
-//         <div className='Container'>
-//             <div className='btncon'>
-//                 <button className='btn' >
-//                     <span>Icon</span>
-//                     <div>
-//                         <span className='loc' >Change Location</span>
-//                         <br />
-//                         <span className='loc' >Garden</span>
-//                     </div>
-//                 </button>
-//                 <button className='btn1'>
-//                     <div>
-//                         <span>Icon</span>
-//                         <span className='num'>021 111 359 111</span>
-//                     </div>
-//                 </button>
-//             </div>
 
-//             {/* logo */}
-//                 <div className='logo'>
-//                 <img className='headimg' src="/src/assets/LOGO.webp"  alt="" />
-//                 </div>
-//             <div className='lastbox'>
-//             <div className='box2'>logo
-//             </div>
-//             <div className='box2'>logo
-//             </div>
-//             </div>
 
-//         </div>
 
-//     )
-// }
+{/* <div className='btncon'>
+<button className='btn' >
+    <span>Icon</span>
+    <div>
+        <span className='loc' >Change Location</span>
+        <br />
+        <span className='loc' >Garden</span>
+    </div>
+</button>
+<button className='btn1'>
+    <div>
+        <span>Icon</span>
+        <span className='num'>021 111 359 111</span>
+    </div>
+</button>
+</div>
+
+{/* logo */}
+/* <div className='logo'>
+<img className='headimg' src="/src/assets/LOGO.webp"  alt="" />
+</div>
+<div className='lastbox'>
+<div className='box2'>logo
+</div>
+<div className='box2'>logo
+</div>
+</div> */
 
 
 //Initialization for ES Users
 
+
+
+
 import {
-  Collapse,
-  Dropdown,
+  Modal,
+  Ripple,
   initTE,
 } from "tw-elements";
 
-initTE({ Collapse, Dropdown });
-
-
+initTE({ Modal, Ripple });
 
 
 export default function Header() {
   return (
-
-
     <div style={{ width: '100%' }}>
       <nav style={{  paddingLeft:"1%", paddingRight:"1%" }}
-        class="relative flex w-full flex-wrap items-center justify-between bg-[#ffffff] py-2 text-neutral-500  hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:py-4">     
+        class="relative flex w-full flex-wrap items-center justify-between bg-[#ffffff]  text-neutral-500  hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:py-4">     
         <div>
             <button className='button1' >
-             <div style={{  display:'flex' , justifyContent:'space-around'  }}>            
+             <div style={{  display:'flex', width:'100px' }}>            
              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30" stroke-width="4" stroke="#9e815a" class="w-6 h-6" style={{marginTop:"8px"}}>
              <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
              </svg>
-             <div style={{ display:'flex',justifyContent:'flex-start'}}>
+             <div style={{ }}>
               change location
               garden</div>  
-            </div>
+          </div>
           </button>
           <button className='button2' >
              <div style={{  display:'flex' , justifyContent:'center' , alignItems:"center"  }}>            
@@ -85,29 +80,28 @@ export default function Header() {
         </div>
 
         <div style={{ display: 'flex', }}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 20 20" stroke-width="1.5" stroke="black" class="w-6 h-6">
+           <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 45 45" stroke-width="1" stroke="black" class="w-6 h-6">
           </svg>
-
-          <svg  aria-hidden="true" focusable="false" width="50" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping align-center" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680">
+          <svg  aria-hidden="true" focusable="false" width="35" data-prefix="fas" data-icon="cart-shopping" class="svg-inline--fa fa-cart-shopping align-center" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680">
             <path fill="black" d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z">
             </path>
           </svg>
-          <button className='button3'
-            //class="block border-0 bg-black px-2 text-neutral-400 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200"
-            
-            type="button"
-            data-te-collapse-init
-            data-te-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent"
-            aria-expanded="false"
+         
+         
+         
+         
+         
+          <button  style={{  backgroundColor:'black', height:'45px', borderRadius:'10px', width:'50px', paddingTop:6  }} 
+            class="block border-0 bg-black px-2 text-neutral-400 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200"
+           type="button"
             aria-label="Toggle navigation">
             <span class="[&>svg]:w-7">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 23 24"
+                viewBox="0 0 24 24"
                 fill="#9e815a"
                 stroke="#9e815a"
-                stroke-width="1.3"
+                stroke-width="2"
                 class="h-7 w-7">
                 <path
                   fill-rule="evenodd"
@@ -117,10 +111,13 @@ export default function Header() {
             </span>
           </button>
         </div>
-
       </nav>
     </div>
   )
 
 }
+
+
+
+
 

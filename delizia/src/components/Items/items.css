@@ -42,32 +42,49 @@
 
 .itemimg {
 width: 90%;
+border-radius: 10px;
 }
 
-.searchBox {
+
+.Box {
+
+    width: 100%;
     display: flex;
-    width: 94%;
-    background-color: azure;
-    border-style: hidden;
-    flex-direction: row;
-    margin-top: 20px;
-    align-items: center;
     justify-content: center;
 
 }
 
-.searchbar {
-
+.searchBox {
     display: flex;
+    width: 90%;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: center;
     align-self: center;
-    height: 40px;
-    background-color: black;
+    border-style: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    background-color: #e2e2e2;
+}
+
+.searchbar {
+    display: flex;
+    height: 45px;    
     width: 94%;
+    background: transparent;
+    margin-left: 20px;
     border-style: none;
     align-items: center;
-
+    font-weight: 600;
 }
 
 input:focus {
     outline:none;
 }
+
+#inputID::placeholder {
+    color: #73757d;
+    opacity: 1;
+}
+
