@@ -10,7 +10,7 @@ import Home from "./home/home"
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Header />,
+    element: <Home />,
     errorElement: (
       <>
         <h1>Oops!</h1>

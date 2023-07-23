@@ -6,25 +6,64 @@ export default function Items() {
     
         <div className='header' >
 
+            
             <div className='Items-box'>
-            <img src="./src/assets/cake.webp" className='items' alt="cake" />
+
+            <div className='Items-boxs' style={{width:'50px', alignSelf:'center', display:'flex', flexDirection:'column'}} >  
+            <img src="./src/assets/cake.webp" className='items' alt="cake" style={{height:'40px'}} />
+            <div>
+                <h3 style={{color:'white', marginLeft:'5px', marginTop:'10px', fontSize:15, color:'#d3ad78'}}>cake</h3>
+            </div>
+            </div>    
             </div>
 
             <div className='Items-box'>
-            <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351912-donut.png&w=48&q=75" className='items' alt="donut" />
-            <br /> <br />
+
+            <div className='Items-boxs' style={{width:'50px', alignSelf:'center', display:'flex', flexDirection:'column'}} >  
+            <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351912-donut.png&w=48&q=75" className='items' alt="donut"style={{height:'40px'}} />
+            <div>
+                <h3 style={{color:'white', marginLeft:'5px', marginTop:'10px', fontSize:15, color:'#d3ad78'}}>Donuts</h3>
             </div>
-            <div className='Items-box'>
-            <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351922-cupcake.png&w=48&q=75" className='items' alt="cupcake" />
+            </div>    
             </div>
 
-            <div className='Items-box'>
-            <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351944-brownie.png&w=48&q=75" className='items' alt="brownie" />
-            </div>
 
             <div className='Items-box'>
-            <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351951-dessert.png&w=48&q=75" className='items' alt="dessert" />
+
+            <div className='Items-boxs' style={{width:'50px', alignSelf:'center', display:'flex', flexDirection:'column'}} >  
+            <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351922-cupcake.png&w=48&q=75" className='items' alt="donut"style={{height:'40px'}} />
+            <div>
+                <h3 style={{color:'white', marginLeft:'5px', marginTop:'10px', width:'100px', fontSize:15, color:'#d3ad78'}}>cup-cake</h3>
             </div>
+            </div>    
+            </div>
+
+
+            
+            <div className='Items-box'>
+
+            <div className='Items-boxs' style={{width:'50px', alignSelf:'center', display:'flex', flexDirection:'column'}} >  
+            <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351944-brownie.png&w=48&q=75" className='items' alt="donut"style={{height:'40px'}} />
+            <div>
+                <h3 style={{color:'white', marginLeft:'5px', marginTop:'10px', fontSize:15, color:'#d3ad78'}}>Brownie</h3>
+            </div>
+            </div>    
+            </div>
+
+
+
+            <div className='Items-box'>
+
+<div className='Items-boxs' style={{width:'50px', alignSelf:'center', display:'flex', flexDirection:'column'}} >  
+<img  src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1678351951-dessert.png&w=48&q=75" className='items' alt="donut"style={{height:'40px'}} />
+<div>
+    <h3 style={{color:'white', marginLeft:'5px', marginTop:'10px', fontSize:15, color:'#d3ad78'}}>dessert</h3>
+</div>
+</div>    
+</div>
+
+
+          
         </div>
 
 

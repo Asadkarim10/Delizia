@@ -12,16 +12,26 @@
     background-color: black;
     width: 180px;
     height: 150px;
-    color: blue;
     justify-content: center;
     align-items: center;
     align-content: center;
     display: flex;
 }
 
+
+
 .Items-box:hover {
     background: white;
 }
+
+.h3 {
+    background-color: #e2e2e2;
+     margin-left:'5px'; 
+     margin-top:"200px";
+     width: 200px; 
+     color:'#d3ad78'
+
+} 
 
 
 .Items {
