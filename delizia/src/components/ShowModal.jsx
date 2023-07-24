@@ -39,8 +39,9 @@ const MyModal = ({ closehandleclick, index }) => {
             <div className="caket-tle">
 
               <div style={{ width: '100%', display: 'flex', flexDirection: 'row', justifyContent: "space-between" }}>
+                {/* <h1 className="div-child">Nutella Cake</h1> */}
                 <h1 className="div-child">Nutella Cake</h1>
-                <h1 className="div-child">Nutella Cake</h1>
+                <button  onClick={closehandleclick} style={{backgroundColor: 'maroon', width:'5%', borderRadius:'10px' , color:'white', height:'40px', marginRight:'10px', fontSize:'20px' }} >x</button>
               </div>
 
               <h2 className="div-child">Rs. 1800.00</h2>
