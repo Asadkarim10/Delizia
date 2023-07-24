@@ -75,7 +75,8 @@ const MyModal = ({ closehandleclick, index }) => {
             <div>
               <p>Special Instructions</p>
               <form>
-                <input className="input-field" type="textarea" name="" id="" placeholder=" please enter instruction about this vitem if any." />
+                <input  type="text-area" name="" id=""  />
+                <textarea className="input-field" placeholder=" please enter instruction about this item if any."/>
               </form>
             </div>
             <div style={{ display:'flex', flexDirection:'row', justifyContent:'flex-start', marginTop:'10px' }}>
