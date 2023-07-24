@@ -14,7 +14,7 @@ export default function Home() {
         <div>   <Header/>  </div>
         <div> <Sld/></div>
         <div><Items/> </div>
-        < Modal />
+        <div style={{ marginTop:'20px'}}  >< Modal /></div> 
         <div> <Footer /> </div>
     </div>;
   }

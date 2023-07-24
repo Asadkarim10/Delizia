@@ -48,9 +48,10 @@
     
 }
 .input-field{
-    background: blue;
     width: 46rem;
+    border: 1px solid black;
     height: 8rem;
+    font-size: 15px;
 }
 .caket-tle{
     
@@ -58,7 +59,7 @@
     font-size: 21px;
     color: #000;
     font-family: Poppins,sans-serif;
-    font-weight: 100
+    font-weight: 100;
 }
 .div-child{
     margin: 0 0 9px 0;
