@@ -82,6 +82,14 @@ export default function Header() {
           </button>
         </div>
 
+
+    <div  style={{ width:'75px', marginLeft:'-100px', height:'60px', opacity:"2" }} >
+    <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fconsole.indolj.io%2Fupload%2F1673941459-LOGO-(1).png&w=128&q=75" alt="Asad" />
+    </div>
+
+
+
+
         <div style={{ display: 'flex', }}>
            <svg xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 45 45" stroke-width="1" stroke="black" class="w-6 h-6">
           </svg>
