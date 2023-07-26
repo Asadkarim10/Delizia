@@ -11,7 +11,7 @@ export default function Footer() {
             
             <div className='Footer'> 
             <div className='pcard'>
-            <img  className='headerimg' src="./src/assets/card.webp" alt="Asad" />
+            <img  className='headerimg' src="./card.webp" alt="Asad" />
             </div>
             <div className='Policy'>
                 <div  >POWERED BY</div>

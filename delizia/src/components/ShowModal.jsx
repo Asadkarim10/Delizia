@@ -2,11 +2,11 @@ import { useState, useContext } from "react";
 import './Showmodal.css';
 import { ItemContext } from '../MyContext';
 import { useParams } from "react-router-dom"
-import Data from "./data"
+// import Data from "./data"
 import Card from './card'
 
 
-const MyModal = ({ closehandleclick, index }) => {
+const MyModal = ({ closehandleclick,item}) => {
   // const [filteredcard,setFilteredCard]=useState("")
   // const { id } = useParams()
   // const cardData[id-1]= useContext(ItemContext);
