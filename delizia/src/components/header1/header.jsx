@@ -66,7 +66,7 @@ export default function Header() {
     emptyCart,
   } = useCart();
   return (
-    <div style={{ width: '100%' }}>
+    <div className='mar-top' style={{ width: '100%' }}>
       <nav style={{  paddingLeft:"1%", paddingRight:"1%" }}
         className="relative flex w-full flex-wrap items-center justify-between bg-[#ffffff]  text-neutral-500  hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:py-4">     
         <div>
@@ -95,8 +95,8 @@ export default function Header() {
         </div>
 
 
-    <div  style={{ width:'75px', marginLeft:'-100px', height:'60px', opacity:"2" }} >
-    <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fconsole.indolj.io%2Fupload%2F1673941459-LOGO-(1).png&w=128&q=75" alt="Asad" />
+    <div  style={{ width:'102px', marginLeft:'-100px', height:'80px', opacity:"2" }} >
+    <img src="./LOGO.webp" alt="Asad" />
     </div>
 
 

@@ -44,7 +44,8 @@ const Card = (props) => {
     AOS.init();
   }, [])
   return (
-    <section className=''  >
+    <section className='' data-aos="fade-up"
+    data-aos-duration="1000"   >
       <article className='card'>
         <div className="article-wrapper" >
           <div className='img-div-h'>
@@ -57,7 +58,7 @@ const Card = (props) => {
               <p className='price-f-w-h'>From Rs.{props.price}</p>
             </div>
             <div className='btn-div' >
-              <button className="btn-font-w-h w-48 h-8 justify-center" onClick={()=>addItem(props.item)}>
+              <button className="btn-font-w-h w-48 h-8 justify-center mb-2" onClick={()=>addItem(props.item)}>
                 {props.cardtitle}
               </button>
             </div>

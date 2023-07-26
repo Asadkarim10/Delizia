@@ -61,7 +61,7 @@
         id : "8" ,
         image: "./coffee.webp",
         title: "Coffee Cake",
-        description: "Light Crème Cheese Icing With A 'Sweet Sense Of Coffee' Which Will Remind You What Love Tastes Like!",
+        description: "Light Crème Cheese Icing With A 'Sweet Sense Of Coffee",
         price: "1500",
         cardtitle: "Add to Cart"
 }
