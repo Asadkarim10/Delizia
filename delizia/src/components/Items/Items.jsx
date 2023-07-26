@@ -1,13 +1,21 @@
-import React from 'react' 
+import React, { useEffect } from 'react';
 import './items.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 export default function Items() {
+   
+    useEffect(() => {
+      AOS.init();
+    }, [])
     return (
         <div>
     
-        <div className='header' >
+        <div className='header' data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" >
 
             
-            <div className='Items-box'>
+            <div className='Items-box '>
 
             <div className='Items-boxs' style={{width:'50px', alignSelf:'center', display:'flex', flexDirection:'column'}} >  
             <img src="./cake.webp" className='items' alt="cake" style={{height:'40px'}} />
@@ -84,7 +92,9 @@ export default function Items() {
 
 
 
-        <div className='itempic' >
+        <div className="itempic" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" >
             
         <img src="https://delizia.pk/_next/image?url=https%3A%2F%2Fassets.indolj.io%2Fimages%2F1673694209-cake-min.jpg&w=1920&q=75" className='itemimg' alt="brownie" />        
         </div>

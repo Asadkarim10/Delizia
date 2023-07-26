@@ -15,7 +15,7 @@
       top: 0;
       left: 0;
       overflow: hidden;
-      animation: slider 26s infinite;
+      animation: slider 15s infinite;
   }
   .img-slider .slider-container .slide {
       position: relative;
