@@ -66,7 +66,7 @@ return (
    <Card image={item.image} price={item.price} title={item.title} description={item.description}  cardtitle={item.cardtitle} openhandleclick={openhandleclick} onClick={() => handleclick(item)} key={index}  item={item}/>
       )})}</div>
         {/* {showModal  &&<MyModal key={index} closehandleclick={closehandleclick} selectedCard={selectedCard} />} */}
-       <div className='flex flex-col items-center mt-7 mb-7'><Link to="/Cart"> <button className='border w-56 h-14 bg-slate-800 rounded
+       <div  className='flex flex-col items-center mt-7 mb-7'><Link to="/Cart"> <button style={{backgroundColor:'black'}} className='border w-56 h-14 bg-slate-800 rounded
         text-yellow-500 '  >Go To Cart</button> </Link></div>
 
         

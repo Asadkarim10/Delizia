@@ -34,7 +34,7 @@ const Cart = () => {
                       <img src={item.image} alt="" />
                     </td>
 
-                    <div style={{ display: 'flex', justifyContent: "space-between", backgroundColor: 'black', width: '357%' }}>
+                    <div style={{ display: 'flex', justifyContent: "space-between", height:'50px', backgroundColor: 'black', width:'200%' }}>
                       <div className="Items-Title"> {item.title} </div>
                       <div className="Items-Title">  {item.price}  </div>
                     </div>
@@ -68,7 +68,7 @@ const Cart = () => {
             justifyContent:"flex-end",
             
           }}>
-            <button style={{backgroundColor:'black', color:'#d3ad78', width:'200px', height:'62px', borderRadius:10, borderColor:"#d3ad78", borderWidth:'2px', marginRight:'15px', marginLeft:'5px', marginTop:'5px'}} >CheckOut</button>
+            <button style={{backgroundColor:'black', color:'#d3ad78', width:'200px', height:'62px', borderRadius:10, borderColor:"#d3ad78", borderWidth:'2px', marginRight:'15px', marginLeft:'5px', marginTop:'5px'}}  onClick={() => emptyCart()} >CheckOut</button>
           </div>
 
 
